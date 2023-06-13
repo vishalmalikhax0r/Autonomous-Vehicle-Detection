@@ -1,0 +1,100 @@
+item { 
+	name:'car'
+	id:1
+}
+item { 
+	name:'Car'
+	id:2
+}
+item { 
+	name:'Right Lane'
+	id:3
+}
+item { 
+	name:'Left Lane'
+	id:4
+}
+item { 
+	name:'Middle Lane'
+	id:5
+}
+item { 
+	name:'Truck'
+	id:6
+}
+item { 
+	name:'Mini truck'
+	id:7
+}
+item { 
+	name:'Left Lane 1'
+	id:8
+}
+item { 
+	name:'Lane 1'
+	id:9
+}
+item { 
+	name:'Lane 2'
+	id:10
+}
+item { 
+	name:'Traffic Light'
+	id:11
+}
+item { 
+	name:'Zebra Crossing'
+	id:12
+}
+item { 
+	name:'Person'
+	id:13
+}
+item { 
+	name:'Bus'
+	id:14
+}
+item { 
+	name:'bus'
+	id:15
+}
+item { 
+	name:'person'
+	id:16
+}
+item { 
+	name:'cycle'
+	id:17
+}
+item { 
+	name:'signal'
+	id:18
+}
+item { 
+	name:'Motorcycle'
+	id:19
+}
+item { 
+	name:'sign'
+	id:20
+}
+item { 
+	name:'Bicycle'
+	id:21
+}
+item { 
+	name:'Obstacle'
+	id:22
+}
+item { 
+	name:'lorry'
+	id:23
+}
+item { 
+	name:'tree'
+	id:24
+}
+item { 
+	name:'truck'
+	id:25
+}
