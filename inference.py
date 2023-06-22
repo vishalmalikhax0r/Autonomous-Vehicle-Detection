@@ -11,7 +11,7 @@ warnings.filterwarnings('ignore')
 TEST_DIR = 'images/'
 SAMPLES = 8
 
-PATH_TO_SAVED_MODEL="saved_model/"
+PATH_TO_SAVED_MODEL = 'my_model/saved_model'
 
 print('Loading model...', end='')
 
