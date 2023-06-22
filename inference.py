@@ -21,7 +21,11 @@ detect_fn=tf.saved_model.load(PATH_TO_SAVED_MODEL)
 print('Done!')
 
 
-category_index=label_map_util.create_category_index_from_labelmap("/home/label_map.pbtxt",use_display_name=True)
+import os
+
+label_map_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "label_map.pbtxt")
+category_index = label_map_util.create_category_index_from_labelmap(label_map_path, use_display_name=True)
+
 
 # img=['/home/models/research/test/img (1).jpg']
 
@@ -77,4 +81,8 @@ for image_path in img:
     # print(image_path)
 
     nimg = Image.fromarray(image_np_with_detections)
-    nimg.save('/home/output/'+image_path[11:])
+    output_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+    os.makedirs(output_folder, exist_ok=True)
+    output_path = os.path.join(output_folder, os.path.basename(image_path))
+    nimg.save(output_path)
+
